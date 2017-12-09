@@ -14,14 +14,12 @@ body {
     background-image:url('https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png')
 }
 
-.header .nav span {
+
+.header .nav ul li {
+    color:white !important;
+    text-decoration: underline;
     font-family: Helvetica;
     font-size:18px;
-    color:white;
-}
-.header .nav ul li {
-    color:white;
-    text-decoration: underline;
 }
 
 p {
@@ -56,7 +54,13 @@ p {
 }
 
 .footer .nav ul {
-    display: flex;
-    color:white;
+    color:white !important;
+   
+}
+
+.footer .nav ul li {
+    display: block;
+    color:white !important;
     text-decoration: none;
 }
+

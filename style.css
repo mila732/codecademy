@@ -17,6 +17,7 @@ body {
 
 .header .nav ul li {
     color:white !important;
+    text-decoration:none;
     text-decoration: underline;
     font-family: Helvetica;
     font-size:18px;
@@ -55,11 +56,12 @@ p {
 
 .footer .nav ul {
     color:white !important;
+    display: flex;
    
 }
 
 .footer .nav ul li {
-    display: block;
+    
     color:white !important;
     text-decoration: none;
 }
